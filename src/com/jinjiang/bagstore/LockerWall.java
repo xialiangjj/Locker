@@ -21,7 +21,6 @@ public class LockerWall implements Lockers {
         return key;
     }
 
-    @Override
     public Bag pop(Ticket storeKey) {
         if (!bags.containsKey(storeKey)) {
             return Bag.NullBag;

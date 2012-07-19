@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="WIN-CD5IJCT87EJ" name="com.jinjiang.bagsStore.LockerWallTest" tests="8" time="0.167" timestamp="2012-07-19T05:35:08">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows Server 2008 R2" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_05\jre\classes" />
+    <property name="ant.file.ShoppingBags" value="C:\workspace\BagsStore\build.xml" />
+    <property name="sun.desktop" value="windows" />
+    <property name="ant.file.type.ShoppingBags" value="file" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.8.4\bin\.." />
+    <property name="java.runtime.version" value="1.7.0_05-b05" />
+    <property name="user.name" value="Administrator" />
+    <property name="build.dir" value="target" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\bin" />
+    <property name="reports.dir" value="target/reports" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="ant.project.name" value="ShoppingBags" />
+    <property name="reports.junit.xml.dir" value="target/reports/junit" />
+    <property name="java.version" value="1.7.0_05" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="target/classes" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_05\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\workspace\BagsStore\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="lib.junit.dir" value="lib" />
+    <property name="java.vm.version" value="23.1-b03" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.8.4\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Administrator" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="test" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_05\bin;C:\apache-ant-1.8.4\bin;C:\msysgit\bin;C:\msysgit\mingw\bin;C:\msysgit\cmd;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.jinjiang.bagsStore.LockerWallTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\workspace\BagsStore\target\reports\junit\TEST-com.jinjiang.bagsStore.LockerWallTest.xml crashfile=C:\workspace\BagsStore\junitvmwatcher4576452294762096843.properties propsfile=C:\workspace\BagsStore\junit6050359733005184469.properties" />
+    <property name="java.class.path" value="C:\workspace\BagsStore\target\classes;C:\workspace\BagsStore\lib\junit-4.10.jar;C:\apache-ant-1.8.4\lib\ant-launcher.jar;C:\apache-ant-1.8.4\lib\ant.jar;C:\apache-ant-1.8.4\lib\ant-junit.jar;C:\apache-ant-1.8.4\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\workspace\BagsStore" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\workspace\BagsStore" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.8.4\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="all" />
+  </properties>
+  <testcase classname="com.jinjiang.bagsStore.LockerWallTest" name="should_be_return_key_when_put_bag" time="0.004" />
+  <testcase classname="com.jinjiang.bagsStore.LockerWallTest" name="should_be_return_bag_when_given_key" time="0.0" />
+  <testcase classname="com.jinjiang.bagsStore.LockerWallTest" name="should_be_return_null_when_repeat_get_by_key" time="0.001" />
+  <testcase classname="com.jinjiang.bagsStore.LockerWallTest" name="should_be_throw_error_when_BagStore_is_full" time="0.0" />
+  <testcase classname="com.jinjiang.bagsStore.LockerWallTest" name="should_be_able_to_tell_if_store_has_room" time="0.0" />
+  <testcase classname="com.jinjiang.bagsStore.LockerWallTest" name="should_be_able_to_tell_if_store_has_my_bag" time="0.0" />
+  <testcase classname="com.jinjiang.bagsStore.LockerWallTest" name="should_be_return_null_when_given_not_exist_key" time="0.0" />
+  <testcase classname="com.jinjiang.bagsStore.LockerWallTest" name="should_be_able_to_tell_if_store_does_not_have_my_bag" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

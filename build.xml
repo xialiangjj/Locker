@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ShoppingBags" default="all" basedir="." xmlns:sonar="antlib:org.sonar.ant">
+    <property name="src.dir" value="src" />
+    <property name="test.dir" value="test" />
+    <property name="lib.junit.dir" value="lib" />
+    <property name="build.dir" value="target" />
+    <property name="classes.dir" value="${build.dir}/classes" />
+    <property name="reports.dir" value="${build.dir}/reports" />
+    <property name="reports.junit.xml.dir" value="${reports.dir}/junit" />
+
+    <path id="classpath">
+        <fileset dir="${lib.junit.dir}" includes="*.jar" />
+    </path>
+
+    <!-- ========= Define "regular" targets: clean, compile, tests, ... ========= -->
+    <target name="clean">
+        <delete dir="${build.dir}" />
+        <delete dir="${reports.dir}" />
+    </target>
+
+    <target name="init">
+        <mkdir dir="${build.dir}" />
+        <mkdir dir="${classes.dir}" />
+        <mkdir dir="${reports.dir}" />
+        <mkdir dir="${reports.junit.xml.dir}" />
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath" fork="true" debug="true" includeAntRuntime="false" />
+        <javac srcdir="${test.dir}" destdir="${classes.dir}" classpathref="classpath" fork="true" debug="true" includeAntRuntime="false" />
+    </target>
+
+    <target name="run-tests" depends="compile" >
+        <taskdef name="junit" classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask">
+            <classpath>
+                <path refid="classpath" />
+            </classpath>
+        </taskdef>
+
+        <junit fork="yes" dir="${basedir}" failureProperty="test.failed">
+            <classpath location="${classes.dir}" />
+            <classpath refid="classpath" />
+
+            <formatter type="xml" />
+            <batchtest todir="${reports.junit.xml.dir}">
+                <fileset dir="${test.dir}">
+                    <include name="**/*Test.java" />
+                </fileset>
+            </batchtest>
+        </junit>
+  </target>
+    <target name="testfailed">
+
+      <fail if="test.failed"></fail>
+    </target>
+
+
+
+
+    <target name="all" depends="clean,compile,init,run-tests,testfailed" />
+    </project>
